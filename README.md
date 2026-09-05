@@ -2,35 +2,40 @@
 
 **Desktop Magnification & Screen-Focusing Utility for Windows**
 
+> ⚠️ **Beta Notice:** IceZoom is currently in active beta and under heavy development. Features may change without notice, and you may encounter bugs or performance quirks. Feedback, issue reports, and pull requests are welcome!
+
 ---
 
 ## Features
 
 ### Core
-- 🔒 **Multiple Configuration Profiles** — Create, rename, duplicate, delete; all settings persist per-profile
-- ⌨ **Customizable Global Hotkeys** — Click-to-record any key combination
-- 🔍 **Real-Time Screen Magnification** — Follow Mouse or Fixed Position modes
-- ◎ **Focus Shape Overlay** — Circle or Square vignette with background dim, outline, crosshair
-- 🎨 **Color & Opacity Controls** — Full customization of all overlay elements
+
+* 🔒 **Multiple Configuration Profiles** — Create, rename, duplicate, delete; all settings persist per-profile
+* ⌨ **Customizable Global Hotkeys** — Click-to-record any key combination
+* 🔍 **Real-Time Screen Magnification** — Follow Mouse or Fixed Position modes
+* ◎ **Focus Shape Overlay** — Circle or Square vignette with background dim, outline, crosshair
+* 🎨 **Color & Opacity Controls** — Full customization of all overlay elements
 
 ### Advanced
-- 📦 **Picture-in-Picture Mode** — Floating draggable/resizable zoom window
-- 🔄 **Auto-Profile Switching** — Automatically activates profiles when registered apps gain focus
-- 🔔 **System Tray Integration** — Quick-switch profiles, enable/disable, minimize to tray
-- 🚀 **Launch at Windows Startup** — Optional registry integration
+
+* 📦 **Picture-in-Picture Mode** — Floating draggable/resizable zoom window
+* 🔄 **Auto-Profile Switching** — Automatically activates profiles when registered apps gain focus
+* 🔔 **System Tray Integration** — Quick-switch profiles, enable/disable, minimize to tray
+* 🚀 **Launch at Windows Startup** — Optional registry integration
 
 ---
 
 ## Requirements
 
-- **Python 3.11+**
-- **Windows 10/11** (Win32 API features)
+* **Python 3.11+**
+* **Windows 10/11** (Win32 API features)
 
 ## Installation
 
 ```bash
 pip install -r requirements.txt
 python main.py
+
 ```
 
 ---
@@ -38,7 +43,7 @@ python main.py
 ## Default Hotkeys
 
 | Action | Default |
-|---|---|
+| --- | --- |
 | Global Toggle | `Shift + Alt + X` |
 | Toggle Zoom (Hold) | `Shift + Right Mouse Button` |
 | Increase Zoom | `Shift + Up Arrow` |
@@ -53,7 +58,7 @@ All hotkeys are fully customizable per-profile in **Settings → Hotkeys**.
 
 ```
 IceZoom/
-├── main.py                   # Entry point
+├── main.py                    # Entry point
 ├── app/
 │   ├── core/
 │   │   ├── profile_manager.py
@@ -80,6 +85,7 @@ IceZoom/
 ├── assets/
 │   └── icon.png
 └── requirements.txt
+
 ```
 
 ---
