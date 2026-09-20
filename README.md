@@ -1,6 +1,6 @@
 # IceZoom 🔍❄
 
-**Desktop Magnification & Screen-Focusing Utility for Windows**
+**Desktop Magnification & Screen Focusing Utility for Windows**
 
 > ⚠️ **Beta Notice:** IceZoom is currently in active beta and under heavy development. Features may change without notice, and you may encounter bugs or performance quirks. Feedback, issue reports, and pull requests are welcome!
 
