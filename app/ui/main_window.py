@@ -54,7 +54,6 @@ class MainWindow(QMainWindow):
         self._build_status_bar()
         self._connect_signals()
 
-    # ── UI Construction ───────────────────────────────────────────────────────
 
     def _build_ui(self):
         central = QWidget()
