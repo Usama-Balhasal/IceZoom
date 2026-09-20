@@ -90,7 +90,7 @@ IceZoom/
 
 ---
 
-## Profile Storage
+## Profiles
 
 Profiles are stored as JSON files in `~/.icezoom/profiles/`.
 You can manually edit them or use **Export/Import** (`.icezoom` bundle) from the Profiles panel.
